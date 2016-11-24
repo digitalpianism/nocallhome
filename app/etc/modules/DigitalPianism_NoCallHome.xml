@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DigitalPianism_NoCallHome>
+            <active>true</active>
+            <codePool>community</codePool>
+        </DigitalPianism_NoCallHome>
+    </modules>
+</config>

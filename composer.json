@@ -1,0 +1,16 @@
+{
+  "name": "digitalpianism/nocallhome",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"Disables 3rd party modules notifications / home calls",
+  "require": {
+    "php": ">=5.3",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"Raphael Petrini",
+      "email":"contact@digital-pianism.com"
+    }
+  ]
+}

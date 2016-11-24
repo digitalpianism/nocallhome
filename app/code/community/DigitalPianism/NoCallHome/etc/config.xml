@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DigitalPianism_NoCallHome>
+            <version>0.0.1</version>
+        </DigitalPianism_NoCallHome>
+    </modules>
+    <adminhtml>
+        <events>
+            <controller_action_predispatch>
+                <observers>
+                    <!-- AW -->
+                    <awall_exts>
+                        <type>disabled</type>
+                    </awall_exts>
+                    <awall_upds>
+                        <type>disabled</type>
+                    </awall_upds>
+                    <!-- Amasty -->
+                    <ambase_upds>
+                        <type>disabled</type>
+                    </ambase_upds>
+                    <!-- Aitoc -->
+                    <aitoc_notfications>
+                        <type>disabled</type>
+                    </aitoc_notfications>
+                    <!-- Magestore -->
+                    <magestore_magenotification_observer>
+                        <type>disabled</type>
+                    </magestore_magenotification_observer>
+                    <!-- Unirgy GiftCert -->
+                    <ugiftcert>
+                        <type>disabled</type>
+                    </ugiftcert>
+                </observers>
+            </controller_action_predispatch>
+        </events>
+    </adminhtml>
+</config>
