@@ -2,7 +2,7 @@
 <config>
     <modules>
         <DigitalPianism_NoCallHome>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </DigitalPianism_NoCallHome>
     </modules>
     <adminhtml>
@@ -24,10 +24,18 @@
                     <aitoc_notfications>
                         <type>disabled</type>
                     </aitoc_notfications>
+                    <!-- Itoris -->
+                    <itoris_installer_notifications>
+                        <type>disabled</type>
+                    </itoris_installer_notifications>
                     <!-- Magestore -->
                     <magestore_magenotification_observer>
                         <type>disabled</type>
                     </magestore_magenotification_observer>
+                    <!-- Ebizmarts MageMonkey -->
+                    <monkey_up>
+                        <type>disabled</type>
+                    </monkey_up>
                     <!-- Mirasvit -->
                     <mstcore_lc>
                         <type>disabled</type>
