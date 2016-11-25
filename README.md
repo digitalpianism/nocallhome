@@ -17,6 +17,9 @@ Feel free to do a PR to add more as this is just the list I gathered over the ye
 
 # Release Notes
 
+## 0.0.4
+- Renamed the `app/etc/modules` configuration file to ensure it comes last.
+
 ## 0.0.3
 - Added Ebizmarts MageMonkey
 - Added Itoris
