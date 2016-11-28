@@ -2,10 +2,14 @@
 
 Disables 3rd party modules notifications / home calls.
 
+# Disclaimer regarding Aitoc
+
+Aitoc does not send admin notifications anymore. The code may still exist in some of their modules but they are not sending notifications anymore. I left the code that disables their observer in order to avoid another call to an observer on the admin predispatch but they have stopped such bad practices :wink:
+
 # List of disabled vendors
 
 * AW
-* Aitoc
+* Aitoc (see above)
 * Amasty
 * Ebizmarts MageMonkey
 * Itoris
