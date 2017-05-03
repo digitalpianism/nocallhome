@@ -2,7 +2,7 @@
 <config>
     <modules>
         <DigitalPianism_NoCallHome>
-            <version>0.0.5</version>
+            <version>0.0.6</version>
         </DigitalPianism_NoCallHome>
     </modules>
     <adminhtml>
@@ -43,10 +43,12 @@
                 </observers>
             </controller_action_predispatch>
             <controller_action_predispatch_adminhtml_dashboard_index>
-                <!-- Ebizmarts MageMonkey -->
-                <monkey_up>
-                    <type>disabled</type>
-                </monkey_up>
+                <observers>
+                    <!-- Ebizmarts MageMonkey -->
+                    <monkey_up>
+                        <type>disabled</type>
+                    </monkey_up>
+                </observers>
             </controller_action_predispatch_adminhtml_dashboard_index>
             <core_block_abstract_to_html_after>
                 <observers>
